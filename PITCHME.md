@@ -4,11 +4,11 @@
 @css[text-30 text-bold h1-title](machine learning model in SPA)
 
 @ul[text-07]
-* what's TensorFlow?
+* what's it?
 * what are we going to build?
 * steps
-* getting the model
-* more on TensorFlow
+* get the model
+* more on tf
 * resources
 @ulend
 @snapend
