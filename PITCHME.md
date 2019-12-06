@@ -61,6 +61,7 @@ $ npm install @tensorflow/tfjs --save
 /assets/models/mnist/model.json
 /assets/models/mnist/group1-shard1of1
 /assets/models/mnist/group2-shard1of1
+...
 ```
 
 ---
@@ -129,6 +130,24 @@ async predict(imageData: ImageData) {
   - train
 * TensorFlow Lite
 @ulend
+
+---
+
+## @fa[balance-scale h2-icon-color] cloud vs edge
+@snap[west text-07]
+cloud
+* ci/cd thru ml ops
+* instant model update
+* secure
+* lightweight devices
+@snapend
+
+@snap[east text-07 text-left]
+edge
+* hardware-optimized
+* performance (local vs network)
+* offline
+@snapend
 
 ---
 
